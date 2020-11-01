@@ -1,0 +1,23 @@
+/*
+Propiedades del modelo de caja (display, width, height, margin, etc)
+Posicionamiento (position, left, top, right, etc)
+Tipografía(text-transform, text-decoration)
+Decoración (background-image, color, etc)
+Variables
+Mixins*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Quicksand", sans-serif;
+}
+:root {
+  --fuchsia: #d81159;
+  --green-letter: #218380;
+  --gray: #707070;
+  --green-backgroung: #73d2de;
+  --purple: #8f2d56;
+}
