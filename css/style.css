@@ -2,9 +2,7 @@
 Propiedades del modelo de caja (display, width, height, margin, etc)
 Posicionamiento (position, left, top, right, etc)
 Tipografía(text-transform, text-decoration)
-Decoración (background-image, color, etc)
-Variables
-Mixins*/
+Decoración (background-image, color, etc)*/
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +16,38 @@ html {
   --fuchsia: #d81159;
   --green-letter: #218380;
   --gray: #707070;
-  --green-backgroung: #73d2de;
+  --green-backgroung: rgba(115, 210, 222, 0.3);
   --purple: #8f2d56;
+}
+
+.header {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--green-backgroung);
+}
+.header-container {
+  display: flex;
+  width: 90%;
+  max-width: 930px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container__menu li {
+  display: inline-block;
+  margin: 5px;
+}
+.header-container__menu li a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.header-container__menu li a .muenu--green {
+  color: var(--green-letter);
+}
+.header-container__menu li a .menu--purple {
+  color: var(--purple);
+}
+.header-container__menu li a .menu--fuchsia {
+  color: var(--fuchsia);
 }
