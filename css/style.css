@@ -146,13 +146,16 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 30px;
 }
 .portfolio__project--img {
 }
 .project__img img {
   width: 300px;
+  padding-right: 60px;
 }
 .portfolio__project--description p {
+  margin: 15px 0;
   color: var(--gray);
 }
 .description__items {
@@ -163,4 +166,37 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.description__items .item img {
+  width: 100px;
+}
+.description__items .item p {
+  width: 175px;
+  padding-left: 25px;
+}
+
+.portfolio__illustrations--separator {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  left: 0;
+}
+.separator__p {
+  width: 50%;
+  height: 100%;
+  font-size: 2.1rem;
+  background-color: var(--green-backgroung);
+}
+.separator__p {
+  padding-right: 30px;
+  text-align: end;
+}
+.separator__img {
+  width: 177.04px;
+  height: 69.34px;
+  background-image: url("/Assets/icons/circles_4.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
