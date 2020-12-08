@@ -21,7 +21,8 @@ html {
 }
 
 .header,
-.separator {
+.separator,
+.portfolio__separator {
   width: 100%;
   padding: 15px;
   background-color: var(--green-backgroung);
@@ -86,7 +87,8 @@ html {
   color: var(--fuchsia);
 }
 .hero__description p,
-.portfolio__project--description p {
+.portfolio__project--description p,
+.separator__p {
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 3rem;
@@ -148,8 +150,6 @@ html {
   align-items: center;
   margin-bottom: 30px;
 }
-.portfolio__project--img {
-}
 .project__img img {
   width: 300px;
   padding-right: 60px;
@@ -175,22 +175,18 @@ html {
   padding-left: 25px;
 }
 
-.portfolio__illustrations--separator {
+.portfolio__separator {
+  background: linear-gradient(90deg, var(--green-backgroung) 50%, white 50%);
+}
+.separator__box {
   display: flex;
-  width: 100%;
-  height: 70px;
-  position: absolute;
-  left: 0;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 930px;
+  margin: 0 auto;
 }
 .separator__p {
-  width: 50%;
-  height: 100%;
-  font-size: 2.1rem;
-  background-color: var(--green-backgroung);
-}
-.separator__p {
-  padding-right: 30px;
-  text-align: end;
+  color: var(--gray);
 }
 .separator__img {
   width: 177.04px;
