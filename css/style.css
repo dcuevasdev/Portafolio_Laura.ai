@@ -256,3 +256,28 @@ html {
   font-size: 1.8rem;
   color: var(--gray);
 }
+
+.footer {
+  width: 100%;
+  padding: 30px 0;
+  background-color: var(--purple);
+}
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  max-width: 930px;
+  margin: 0 auto;
+}
+.footer__container form {
+}
+.footer__container .social .social__container {
+  display: inline-block;
+}
+.footer__container .social .social__container:last-child {
+  margin-left: 20px;
+}
+.footer__container .social .social__container img {
+  width: 40px;
+}
