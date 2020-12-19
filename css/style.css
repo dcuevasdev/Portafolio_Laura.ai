@@ -199,17 +199,17 @@ html {
 }
 .portfolio__illustrations--draw {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
-.item--1 {
+/* .item--1 {
   grid-column: 2 / 3;
-}
+} */
 .item--4 {
-  grid-column: 2 / 3;
+  grid-column: 1 / 2;
 }
 .item--5 {
-  grid-column: 4 / 5;
+  grid-column: 2 / 3;
   grid-row: 2 / 3;
 }
 .portfolio__illustrations--draw figure img {
@@ -240,19 +240,20 @@ html {
   align-items: center;
   max-width: 930px;
   margin: 0 auto;
+  padding: 10px;
 }
 .software__using div {
   display: inherit;
   align-items: inherit;
 }
 .software__img img {
-  width: 100px;
+  width: 90px;
 }
 .software__img--sd img {
   width: 160px;
 }
 .software__using div p {
-  margin-left: 10px;
+  margin-left: 15px;
   font-size: 1.8rem;
   color: var(--gray);
 }

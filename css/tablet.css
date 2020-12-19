@@ -1,0 +1,29 @@
+.hero__description {
+  padding-right: 0;
+}
+
+.portfolio__project {
+  flex-wrap: wrap;
+}
+.portfolio__project--img {
+  order: 2;
+  margin: 10px auto 0;
+}
+
+.portfolio__illustrations--draw {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.item--4 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.item--5 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.software__using {
+  flex-wrap: wrap;
+}
