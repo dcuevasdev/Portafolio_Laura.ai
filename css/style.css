@@ -70,7 +70,7 @@ html {
   width: 90px;
   height: 25px;
   margin-bottom: 25px;
-  background-image: url("Assets/icons/circles_1.svg");
+  background-image: url("../Assets/icons/circles_1.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,7 +101,7 @@ html {
   position: absolute;
   top: 0px;
   right: 340px;
-  background-image: url("Assets/icons/circles_2.svg");
+  background-image: url("../Assets/icons/circles_2.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -116,7 +116,7 @@ html {
   position: absolute;
   left: 280px;
   bottom: 30px;
-  background-image: url("Assets/icons/circles_3.svg");
+  background-image: url("../Assets/icons/circles_3.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,7 +188,7 @@ html {
 .separator__img {
   width: 177.1px;
   height: 70px;
-  background-image: url("Assets/icons/circles_4.svg");
+  background-image: url("../Assets/icons/circles_4.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
