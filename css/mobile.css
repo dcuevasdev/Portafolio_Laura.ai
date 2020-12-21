@@ -1,0 +1,62 @@
+.header-container {
+  display: block;
+  text-align: center;
+}
+.header-container__menu {
+  margin-top: 10px;
+}
+
+.hero {
+  display: block;
+  margin-top: 30px;
+}
+.hero__description div {
+  margin-bottom: 0;
+}
+.hero__img .circles--one {
+  display: none;
+}
+.hero__img {
+  margin-top: 15px;
+  padding-right: 0;
+  text-align: center;
+}
+.hero__img .circles--two {
+  display: none;
+}
+
+.description__items {
+  display: block;
+}
+
+.portfolio__separator {
+  text-align: center;
+  background: var(--green-backgroung);
+}
+.separator__img {
+  display: none;
+}
+
+.portfolio__illustrations--draw {
+  display: block;
+}
+
+.separator__title {
+  padding-top: 6.5px;
+}
+
+.software {
+  margin: 0;
+}
+
+.footer__container {
+  display: block;
+  text-align: center;
+}
+form .button #send {
+  margin: 0 auto;
+  text-align: center;
+}
+footer .social {
+  margin-top: 15px;
+}
