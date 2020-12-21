@@ -240,11 +240,12 @@ html {
   align-items: center;
   max-width: 930px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
 }
 .software__using div {
   display: inherit;
   align-items: inherit;
+  margin: 10px 10px;
 }
 .software__img img {
   width: 90px;

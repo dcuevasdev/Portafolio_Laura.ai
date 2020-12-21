@@ -1,13 +1,25 @@
 .hero__description {
   padding-right: 0;
 }
+.hero__img .circles--one {
+  right: 285px;
+}
+.hero__img .img__profile img {
+  width: 250px;
+}
+.hero__img .circles--two {
+  left: 230px;
+  bottom: 15px;
+}
 
 .portfolio__project {
   flex-wrap: wrap;
 }
 .portfolio__project--img {
-  order: 2;
-  margin: 10px auto 0;
+  display: none;
+}
+.description__items {
+  justify-content: space-around;
 }
 
 .portfolio__illustrations--draw {
